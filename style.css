@@ -1,0 +1,96 @@
+*{
+    background-color: darkslateblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.set{
+
+    height: 200px;
+    /* border: 2px solid black; */
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.drum {
+    height: 4.5em;
+    width: 4.5em;
+    background-color: rgb(181, 83, 47);
+    font-size: 2em; /* Increase font size */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration-thickness: 2px;
+    display: flex; /* Add flex properties to center content vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+    /* border: none; Remove default button border */
+    cursor: pointer; /* Add cursor pointer */
+    transition: background-color 0.3s, transform 0.2s; /* Add transition for smoother hover effect */
+}
+
+.drum:hover {
+    background-color: rgb(204, 122, 63); /* Change background color on hover */
+    transform: scale(1.1); /* Add scale effect on hover */
+}
+
+
+button{
+    border: double rgb(42, 159, 177) 5px;
+    border-radius: 5%;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.w{
+    background-image:url(images/crash.png);
+    /* opacity: 0.7; */
+}
+
+.a{
+    background-image: url(images/kick.png);
+    /* opacity: 0.7; */
+}
+
+.s{
+      background-image: url(images/snare.png);
+      /* opacity: 0.7; */
+}
+
+.d{
+   background-image: url(images/tom1.png);
+   /* opacity: 0.7; */
+}
+
+.j{
+    background-image: url(images/tom2.png);
+    /* opacity: 0.7; */
+}
+
+.k{
+    background-image: url(images/tom3.png);
+    /* opacity: 0.7; */
+}
+
+.l{
+    background-image: url(images/tom4.png);
+    /* opacity: 0.7; */
+}
+
+.pressed{
+
+    box-shadow: 0 3px 4px 0 #0b769a;
+    opacity: 0.5;
+}
